@@ -1,0 +1,23 @@
+.ceo-message-section {
+    width: 75%;
+    max-width: 1200px;
+    margin: 2rem auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--accent-color);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.ceo-message-section img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-right: 2rem;
+    box-shadow: var(--shadow-light);
+    border-radius: 8px;
+}
+.ceo-message-text {
+    flex: 1;
+}

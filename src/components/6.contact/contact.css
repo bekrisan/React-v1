@@ -1,0 +1,49 @@
+.contact-section {
+    margin-top: 40px;
+    background-color: var(--primary-color);
+    padding: 40px 20px;
+    text-align: center;
+    align-items: center;
+    color: var(--text-light);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: nowrap;
+}
+.contact-div {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    /* border: white 1px solid; */
+    /* width: 70%; */
+    transition: transform 0.3s ease;
+    transition: text-decoration 1s ease;
+    margin: 0 auto;
+}
+.contact-div1 {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    /* border: white 1px solid; */
+    /* width: 30%; */
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+    color: var(--text-light);
+}
+.contact-div1:hover, .contact-div :hover {
+    transform: scale(1.1);
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    filter: invert(1);
+}
